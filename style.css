@@ -1,0 +1,41 @@
+body {
+  font-family: Helvetica;
+  background-color: slategray;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.bingo-field {
+  width: 70vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bingo-row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.bingo-cell {
+  background-color: lightseagreen;
+  width: 100%;
+  border: 1px solid white;
+  padding: 2%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer
+}
+
+.bingo-cell.bingod {
+  background-color: hotpink;
+}
+
+
+.footer {
+  padding-top: 10%;
+  font-size: 0.6em;
+}
