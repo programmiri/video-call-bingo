@@ -112,10 +112,13 @@ function checkHits(hitsNeeded, currentHits) {
   }
 
   return {
-    start: function start() {
+    start: function() {
       const cells = document.querySelectorAll('[data-cell-id="0"]')
       addContentToCells(cells)
       registerEventListeners()
+    },
+    restart: function() {
+      location.reload();
     }
   };
 })();
