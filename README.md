@@ -1,4 +1,4 @@
-# Video-Call Bingo 🖥️
+# 👉 Video Call Bingo 👈
 
 This little game wants to help cheer you and your team members🧑‍🤝‍🧑 up during one of too many video-calls in these days. 🤗
 
