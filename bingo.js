@@ -101,7 +101,7 @@ function checkHits(hitsNeeded, currentHits) {
       return checkHits(list, hitBingos)
     })
     if(weHaveAWinner) {
-      alert("BINGO")
+      showOverlay()
     }
   }
 
@@ -113,6 +113,10 @@ function checkHits(hitsNeeded, currentHits) {
         updateBingoList(cellId)
         checkForBingo()
     });
+  }
+
+  function showOverlay() {
+    document.querySelector('.overlay--hidden').classList.remove('overlay--hidden')
   }
 
   return {

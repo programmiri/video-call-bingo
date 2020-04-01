@@ -13,48 +13,53 @@
     <title>Video Call Bingo</title>
 
   </head>
-  <body onload="bingo.start()">
-    <header>
-      <h1 class="h1">Video Call Bingo</h1>
-      <h2 class="subheader">A bit of fun through all covid-19 caused this video calls.</h2>
-    </header>
-    <button onclick="bingo.restart()">Start over</button>
-    <div class="bingo-field">    
+  <body onload="bingo.start()" class="background">
+    <div class="content">
+      <header>
+        <h1 class="h1">Video Call Bingo</h1>
+      </header>
+      <div class="bingo-field">    
+        <div class="bingo-row">
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
 
-      <div class="bingo-row">
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
+        </div>      
+        <div class="bingo-row">
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
 
-      </div>      
-      <div class="bingo-row">
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
+        </div>      
+        <div class="bingo-row">
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
 
-      </div>      
-      <div class="bingo-row">
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
+        </div>
+              <div class="bingo-row">
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
+          <div class="bingo-cell" data-cell-id="0"><span></span></div>
 
+        </div>
       </div>
-            <div class="bingo-row">
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
-        <div class="bingo-cell" data-cell-id="0"><span></span></div>
 
+      <div class="overlay overlay--hidden">
+        <div class="overlay-content">
+          <p>🎉  BINGO  🎉</p>
+          <button onclick="bingo.restart()" class="button">Start over</button>
+        </div>
       </div>
-            
+      <footer class="footer">
+        Video Call Bingo on github<br />
+          <a href="https://github.com/programmiri/video-call-bingo">https://github.com/programmiri/video-call-bingo</a>
+      </footer>
     </div>
-    <footer class="footer">
-      Video Call Bingo on github.<br />
-        <a href="https://github.com/programmiri/video-call-bingo">https://github.com/programmiri/video-call-bingo</a>
-    </footer>
-        <script language="javascript" type="text/javascript" src="bingo.js"></script>
+    <script language="javascript" type="text/javascript" src="bingo.js"></script>
   </body>
 </html>

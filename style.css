@@ -1,15 +1,28 @@
 body {
   font-family: Helvetica;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   font-size: 16px;
 }
 
-h1, h2 {
-   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+.background {
+  background-color: #639;
+  background-image: linear-gradient(45deg, #000, #000 0.5%, #ffd700 0.5%, #ffd700 7.6%, #000 7.6%, #000 8.642857143%, #ff8c00 8.642857143%, #ff8c00 15.64285714%, #000 15.64285714%, #000 16.88571429%, #dc143c 16.88571429%, #dc143c 23.84285714%, #000 23.84285714%, #000 25%, transparent 25%), linear-gradient(-45deg, #000, #000 0.5%, #ffd700 0.5%, #ffd700 7.6%, #000 7.6%, #000 8.642857143%, #ff8c00 8.642857143%, #ff8c00 15.64285714%, #000 15.64285714%, #000 16.88571429%, #dc143c 16.88571429%, #dc143c 23.84285714%, #000 23.84285714%, #000 25%, transparent 25%), linear-gradient(45deg, transparent 73.85714286%, #000 73.85714286%, #000 75%, transparent 75%), linear-gradient(-45deg, transparent 73.85714286%, #000 73.85714286%, #000 75%, transparent 75%), linear-gradient(45deg, transparent 66.85714286%, #dc143c 66.85714286%, #dc143c 73.85714286%, transparent 73.85714286%), linear-gradient(-45deg, transparent 66.85714286%, #dc143c 66.85714286%, #dc143c 73.85714286%, transparent 73.85714286%), linear-gradient(45deg, transparent 65.71428571%, #000 65.71428571%, #000 66.85714286%, transparent 66.85714286%), linear-gradient(-45deg, transparent 65.71428571%, #000 65.71428571%, #000 66.85714286%, transparent 66.85714286%), linear-gradient(45deg, transparent 58.71428571%, #ff8c00 58.71428571%, #ff8c00 65.71428571%, transparent 65.71428571%), linear-gradient(-45deg, transparent 58.71428571%, #ff8c00 58.71428571%, #ff8c00 65.71428571%, transparent 65.71428571%), linear-gradient(45deg, transparent 57.57142857%, #000 57.57142857%, #000 58.71428571%, transparent 58.71428571%), linear-gradient(-45deg, transparent 57.57142857%, #000 57.57142857%, #000 58.71428571%, transparent 58.71428571%), linear-gradient(45deg, transparent 50.57142857%, #ffd700 50.57142857%, #ffd700 57.57142857%, transparent 57.57142857%), linear-gradient(-45deg, transparent 50.57142857%, #ffd700 50.57142857%, #ffd700 57.57142857%, transparent 57.57142857%), linear-gradient(45deg, transparent 49.42857143%, #000 49.42857143%, #000 50.57142857%, transparent 50.57142857%), linear-gradient(-45deg, transparent 49.42857143%, #000 49.42857143%, #000 50.57142857%, transparent 50.57142857%), linear-gradient(45deg, transparent 42.42857143%, #228b22 42.42857143%, #228b22 49.42857143%, transparent 49.42857143%), linear-gradient(-45deg, transparent 42.42857143%, #228b22 42.42857143%, #228b22 49.42857143%, transparent 49.42857143%), linear-gradient(45deg, transparent 41.28571429%, #000 41.28571429%, #000 42.42857143%, transparent 42.42857143%), linear-gradient(-45deg, transparent 41.28571429%, #000 41.28571429%, #000 42.42857143%, transparent 42.42857143%), linear-gradient(45deg, transparent 34.28571429%, #4169e1 34.28571429%, #4169e1 41.28571429%, transparent 41.28571429%), linear-gradient(-45deg, transparent 34.28571429%, #4169e1 34.28571429%, #4169e1 41.28571429%, transparent 41.28571429%), linear-gradient(45deg, transparent 33.142857143%, #000 33.142857143%, #000 34.28571429%, transparent 34.28571429%), linear-gradient(-45deg, transparent 33.142857143%, #000 33.142857143%, #000 34.28571429%, transparent 34.28571429%);
+  background-size: 100px 100px;
+  background-position: 0 0;
+}
+
+.content {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin: 5% 0;
+  padding: 5%;
 }
 
 .h1 {
+  margin-top: 0;
+  text-align: center;
   font-size: 3rem;
 }
 
@@ -19,9 +32,8 @@ h1, h2 {
 }
 
 .bingo-field {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 100%;
-  min-height: 70vh;
+  height: 60vh;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -36,29 +48,94 @@ h1, h2 {
   width: 100%;
   margin: 8px;
   padding: 10px;
-  border-radius: 5px;
   display: flex;
   align-items:center;
   justify-content: center;
+  line-height: 1.3;
   text-align: center;
-  background-color: rgb(247, 247, 247);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  transition: all 0.5s ease;
+  border: 2px solid black;
+  border-radius: 0px;
+  /*background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
 .bingo-cell:hover {
-  background-color: #e0f7f2;
-  /*box-shadow: 0 10px 6px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+  background-color: rgb(255, 215, 0, 0.3);
 }
 
 .bingo-cell.bingod {
-  background-color: #c5fff2;
-  box-shadow: inset 0 8px 10px -6px rgba(0,0,0,0.16), inset 0 -8px 10px -6px rgba(0,0,0,0.16),  inset 8px 0 10px -6px rgba(0,0,0,0.16), inset -8px 0 10px -6px rgba(0,0,0,0.16);
+  background-color: rgb(247, 219, 59);
 }
 
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay--hidden {
+  display: none;
+}
+
+.overlay-content {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 24px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button:hover{
+  color: #FFF;
+  text-shadow: 1px 1px 1px black;
+  background-image: linear-gradient(
+    to right, 
+    #E7484F,
+    #E7484F 16.65%,
+    #F68B1D 16.65%,
+    #F68B1D 33.3%,
+    #FCED00 33.3%,
+    #FCED00 49.95%,
+    #009E4F 49.95%,
+    #009E4F 66.6%,
+    #00AAC3 66.6%,
+    #00AAC3 83.25%,
+    #732982 83.25%,
+    #732982 100%,
+    #E7484F 100%
+  );
+  animation: slidebg 30s linear infinite;
+}
 
 .footer {
-  padding: 5% 0;
+  text-align: center;
+  padding-top: 5%;
   font-size: 0.75rem;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 300vw;
+  }
 }
