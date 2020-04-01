@@ -87,7 +87,6 @@ function checkHits(hitsNeeded, currentHits) {
 
   function registerEventListeners() {
       addEventListener('click', function(event) {
-        event.preventDefault()
         const cellId = event.target.getAttribute('data-cell-id')
         if(!cellId) return
         toggleClass(event.target)
