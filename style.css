@@ -1,12 +1,25 @@
 body {
-  font-family: Helvetica;
   background-color: slategray;
   margin: 0 auto;
   width: 80%;
+  font-size: 18px;
 }
 
+h1, h2 {
+   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.subheader {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
 
 .bingo-field {
+  font-family:Georgia, 'Times New Roman', Times, serif;
   width: 70vw;
   min-height: 70vh;
   display: flex;
@@ -36,6 +49,6 @@ body {
 
 
 .footer {
-  padding-top: 10%;
-  font-size: 0.6em;
+  padding: 5% 0;
+  font-size: 0.75rem;
 }
