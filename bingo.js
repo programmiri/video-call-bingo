@@ -10,7 +10,7 @@ const bingo = (function () {
     'Loud eating noises.',
     'Only forehead visible.',
     'Clearly doing other things on phone.',
-    'Too bright background light',
+    'Too bright background light.',
     'Person talks while muted.',
     '"I did not get that, can you repeat it?"',
     'Loud noises in someones background.',
@@ -18,6 +18,18 @@ const bingo = (function () {
     '"Can you mute yourself?"',
     'Video of the speaker freezing and nobody talks for 2 minutes.',
     '"Is person X here?"',
+    '"I will look into it."',
+    'Loud typing noises.',
+    'Call runs over the scheduled time.',
+    'Request for feedback is met with silence.',
+    '"Who wants to start" followed by awkward silence.',
+    '"Who just joined?"',
+    '"Uhm, X, you are still sharing."',
+    '"Can I share my screen?"',
+    '"Can everyone go on mute?"',
+    'At least one person comes way too late.',
+    '"Next slide please."',
+    '"Hello…, Hello? Hello!"'
   ]
 
   const winner = [
