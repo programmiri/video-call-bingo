@@ -31,7 +31,9 @@ const bingo = (function () {
     'At least one person comes way too late.',
     '"Next slide please."',
     '"Hello…, Hello? Hello!"',
-    "Someone stands up and everyone looks on their headless torso."
+    "Someone stands up and everyone looks on their headless torso.",
+    '"I have to quit to stop sharing my screen."',
+    "Usage of super distracting background."
   ]
 
   const winner = [
