@@ -1,7 +1,7 @@
 # 👉 Video Call Bingo 👈
 
 This little game wants to help cheer you and your team members🧑‍🤝‍🧑 up during one of too many video-calls in these days.  
-Go and [play videa-call-bingo](https://hopeful-villani-159ced.netlify.com/) 🤗
+Go and [play video-call-bingo](https://hopeful-villani-159ced.netlify.com/) 🤗
 
 ## Have fun!
 Please feel free to copy this repository, contribute to it and, of course, use it and have fun!
