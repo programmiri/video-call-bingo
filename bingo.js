@@ -23,7 +23,6 @@ const bingo = (function () {
     '"I will look into it."',
     'Loud typing noises.',
     'Call runs over the scheduled time.',
-    'Request for feedback is met with silence.',
     '"Who wants to start" followed by awkward silence.',
     '"Who just joined?"',
     '"Uhm, X, you are still sharing."',
@@ -31,7 +30,8 @@ const bingo = (function () {
     '"Can everyone go on mute?"',
     'At least one person comes way too late.',
     '"Next slide please."',
-    '"Hello…, Hello? Hello!"'
+    '"Hello…, Hello? Hello!"',
+    "Someone stands up and everyone looks on their headless torso."
   ]
 
   const winner = [
