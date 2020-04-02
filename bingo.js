@@ -33,7 +33,8 @@ const bingo = (function () {
     '"Hello…, Hello? Hello!"',
     "Someone stands up and everyone looks on their headless torso.",
     '"I have to quit to stop sharing my screen."',
-    "Usage of super distracting background."
+    "Usage of super distracting background.",
+    "Free floating head in front of a photo background."
   ]
 
   const winner = [
