@@ -14,6 +14,8 @@ const bingo = (function () {
     'Person talks while muted.',
     '"I did not get that, can you repeat it?"',
     'Loud noises in someones background.',
+    'Microphone freaks out.',
+    'Notification sounds.',
     'Pixely blob speaking incomp-rehensible.',
     '"Can you mute yourself?"',
     'Video of the speaker freezing and nobody talks for 2 minutes.',
