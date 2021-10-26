@@ -3,18 +3,21 @@ const bingo = (function () {
   const bingos = [
     '"Do you see my screen?"',
     '"You are muted!"',
-    'Everybody (expect Vojta) trying to stay the heck away from the start arrow around the fireplace.',
+    'Everybody (except Vojta) trying to stay the heck away from the start arrow at the fireplace.',
     'Video of the speaker freezing and nobody talks for 1 minute.',
     '"Who wants to start" followed by silence.',
     '"Who wants to react to that?" followed by a long silence.',
-    "Waiting for Vojta to start!",
-    "I'm ok, next.",
-    "That's the perfect channel name!",
+    '"Waiting for Vojta to start!"',
+    '"I\'m ok. Next."',
+    '"That\'s the perfect channel name!"',
     'Someone calls the unit wholesome.',
-    'Someone is corrected that we do not have "awkward" but "comfortable" silence',
+    'Someone is corrected that we don\'t have "awkward" but "comfortable" silence',
     'Coffee is mentioned.',
-    'Some confusion is happening about type / version / configuration and whats an integration anyways?',
+    'The lack of coffee is mentioned.',
+    'Some confusion is happening about type / version / configuration and what\'s an integration anyways?',
     'Unprompted long silence.',
+    'Halloween is mentioned.',
+    'There are _possible_ squirrels!',
   ]
 
   const winner = [
