@@ -11,9 +11,10 @@ const bingo = (function () {
     'Vojta says he will go first',
     '"I’m fine. Next."',
     '"That’s the perfect channel name!"',
+    'Someone asking "What did I miss" in regards to our channel name.',
     'Someone calls the unit wholesome.',
     'Divorce rate is mentioned.',
-    'Someone is corrected that we don’t have "awkward" but "comfortable" silence',
+    'Someone is corrected that we don’t have "awkward" but "comfortable" silence.',
     'Coffee is mentioned.',
     'The lack of coffee is mentioned.',
     'Some confusion is happening about type / version / configuration and what’s an integration anyways?',
@@ -24,9 +25,9 @@ const bingo = (function () {
     '"LET ME IINNNNNN" in slack.',
     '"I’m happy to see you all!"',
     "Mural gets more check-in circle decorations that yellow notes.",
-    "Suddenly we talk about books and half of us get sci-fi FOMO",
+    "Suddenly we talk about books and half of us get sci-fi FOMO.",
     "More communication happens in the zoom chat than in the actual call.",
-    "There's a mention of good skin",
+    "There's a mention of good skin.",
   ]
 
   const winner = [
