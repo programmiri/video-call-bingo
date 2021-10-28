@@ -28,6 +28,8 @@ const bingo = (function () {
     "Suddenly we talk about books and half of us get sci-fi FOMO.",
     "More communication happens in the zoom chat than in the actual call.",
     "There's a mention of good skin.",
+    "Peter has written a blog post about something.",
+    "Implementation ended in tragedy.",
   ]
 
   const winner = [
