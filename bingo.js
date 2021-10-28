@@ -30,6 +30,7 @@ const bingo = (function () {
     "There's a mention of good skin.",
     "Peter has written a blog post about something.",
     "Implementation ended in tragedy.",
+    '"Good meeting"'
   ]
 
   const winner = [
